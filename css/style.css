@@ -1,0 +1,71 @@
+/*  Color variables. Цветовые переменные.  */
+.text-purple {
+	color: #5b4295;
+}
+.text-red {
+	color: #fc444a;
+}
+.text-grey {
+	color: #858688;
+}
+
+/*  START main styles. НАЧАЛО основные стили.  */
+body {
+	font-size: 14px;
+    font-family: 'Titillium-Regular', sans-serif;
+	color: #959393 ;
+}
+a {
+	color: #454545 ;
+} 
+
+/*  START navbar navigation. НАЧАЛО меню навигации.  */
+.navbar-brand {
+	font-size: 2.143rem;
+	font-family: 'Titillium-Bold', sans-serif;
+}
+.navbar-nav {
+	font-size: 1.143rem;
+}
+.login {
+	margin-left: 75px;
+	font-family: 'Titillium-Bold', sans-serif;
+}
+.login:hover .fa-sign-in-alt {
+	-o-transform: translateX(-8px) scale(1.15) rotate(-180deg);
+	-ms-transform: translateX(-8px) scale(1.15) rotate(-180deg);
+	-moz-transform: translateX(-8px) scale(1.15) rotate(-180deg);
+	-webkit-transform: translateX(-8px) scale(1.15) rotate(-180deg);  
+	transform: translateX(-8px) scale(1.15) rotate(-360deg);
+}
+.fa-sign-in-alt {
+	color: #582c7e;
+	-o-transition: all 0.40s ease-in-out;
+	-moz-transition: all 0.40s ease-in-out;
+	-webkit-transition: all 0.40s ease-in-out;
+	transition: all 0.40s ease-in-out;
+}
+.btn-nav {
+	width: 94px;
+  	height: 40px;
+	border-radius: 22px;
+ 	font-family: 'Titillium-Bold', sans-serif;
+ 	color: #fff;
+ 	background-color: #582c7e;
+ 	background-image: linear-gradient(to bottom right, #582c7e 0%, #6379CF 100%);
+ 	background-image: -webkit-linear-gradient(to bottom right, #582c7e 0%, #6379CF 100%);
+ 	background-image: -moz-linear-gradient(to bottom right, #582c7e 0%, #6379CF 100%);
+ 	background-image: -o-linear-gradient(to bottom right, #582c7e 0%, #6379CF 100%);
+ 	box-shadow: 0px 7px 9px 0px rgba(142, 117, 222, 0.15),0px 13px 21px 0px rgba(20, 80, 204, 0.27),0px 13px 21px 0px rgba(0, 0, 0, 0.15),0px 4px 16px 0px rgba(102, 145, 233, 0.33),0px 4px 16px 0px rgba(0, 0, 0, 0.09),0px 3px 9px 0px rgba(53, 103, 205, 0.09),0px 3px 9px 0px rgba(0, 0, 0, 0.09),0px 3px 3px 0px rgba(102, 145, 233, 0.09),0px 3px 3px 0px rgba(0, 0, 0, 0.17);	
+ 	transition: all 0.4s ease-out;
+}
+.btn-nav:hover {
+	width: 134px;
+	color: #fff;
+	opacity: 0.96;
+}
+.languages {
+	
+}
+
+/*  END navbar navigation. ФИНИШ меню навигации.  */

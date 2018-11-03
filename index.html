@@ -2,15 +2,70 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Neuntron Mail</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/all.css">
+
 	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	
+	<nav class="navbar navbar-expand-lg mt-lg-4">
+		<div class="container">
+			<a href="#" class="navbar-brand text-grey">neutron<span class="text-purple">Mail</span></a>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Security</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Security</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Donate</a></li>
+			</ul>
+
+			<a href="#" class="login" data-toggle="modal" data-target="#loginModal"><i class="fas fa-sign-in-alt mr-lg-2"></i>Log in</a>
+
+			<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+				  <div class="modal-content">
+				    <div class="modal-header">
+				      <h5 class="modal-title" id="loginModalLabel">Please enter your email and password.</h5>
+				      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				        <span aria-hidden="true">&times;</span>
+				      </button>
+				    </div>
+				    <div class="modal-body">
+				      <form>
+				        <div class="form-group">
+				          <label for="loginInputEmail1">Email address</label>
+				          <input type="email" class="form-control" id="loginInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
+				        </div>
+				        <div class="form-group">
+				          <label for="loginInputPassword1">Password</label>
+				          <input type="password" class="form-control" id="loginInputPassword1" placeholder="*******">
+				        </div>
+				        <button type="submit" class="btn">Submit</button>
+				      </form>
+				    </div>
+				  </div>
+				</div>
+			</div>
+
+			<a href="#" class="btn btn-nav ml-lg-4">Sign up</a>
+
+			<!-- <ul class="languages d-inline">
+				<li><a href="#">English</a></li>
+				<li><a href="#">/ French</a></li>
+				<li><a href="#">/ Italian</a></li>
+				<li><a href="#">/ Polish</a></li>
+			</ul> -->
+		</div>
+	</nav>
+
 
 <script src="js/jquery-slim.min.js"></script>
 <script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
